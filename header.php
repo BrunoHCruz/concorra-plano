@@ -28,7 +28,7 @@
     <meta property="og:site_name" content="" />
     <meta property="og:locale" content="" />
 
-    <link rel="icon" href="/" />
+    <link rel="icon" href="https://www.planoeplano.com.br/" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,400i,700,900&display=swap" rel="stylesheet">
 
     <title><?= $title;?></title>
@@ -49,7 +49,7 @@
   <header class="header">
     <div class="container">
         <div class="header__content d-flex flex-row justify-content-between align-items-center">
-            <a href="/" title="Plano&Plano" class="header__logo">
+            <a href="https://www.planoeplano.com.br/" title="Plano&Plano" class="header__logo">
               <picture>
                   <source srcset="assets/images/logo.webp" type="image/webp">
                   <source srcset="assets/images/logo.png" type="image/png"> 
