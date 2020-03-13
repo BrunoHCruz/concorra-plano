@@ -46,6 +46,11 @@
     }
     &__regulamento {
         @include font-std(12px, #9FA7B3, 400, $font-primary);
+        a {
+            color: black;
+            text-decoration: underline;
+            font-weight: bold;
+        }
     }
 
 }

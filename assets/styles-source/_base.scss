@@ -10,6 +10,9 @@ body {
   &--title {
     @include font-std(38px, $colorBlack, 600, $font-primary);
     margin: 0 0 60px;
+    @include mobile {
+      font-size: 34px;
+    }
   }
 
   &--region {
@@ -72,6 +75,9 @@ body {
     @include font-std(38px, $colorWhite, 600, $font-primary);
     margin: 0 0 10px;
     text-align: center;
+    @include mobile {
+      font-size: 34px;
+    }
   }
 
   &--text {
@@ -156,12 +162,16 @@ a {
 
 .webdoor {
   background-color: #e1c500;
+  padding-top: 100px;
+  @include mobile {
+    padding-top: 0;
+  }
   &__title {
     @include font-std(54px, $colorWhite, 600, $font-primary);
     line-height: 1.2;
     @include mobile {
       text-align: center;
-      font-size: 40px;
+      font-size: 34px;
     }
   }
 
@@ -181,6 +191,9 @@ a {
   &__title {
     @include font-std(40px, $colorWhite, 600, $font-primary);
     padding: 85px 0;
+    @include mobile {
+      font-size: 34px;
+    }
   }
 
   &__number {

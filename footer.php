@@ -72,7 +72,7 @@
         </div>
         <div class="col-12 col-md-8">
           <p class="footer__regulamento pl-0 pl-md-5 mt-3">
-            Realização: Plano&Plano | Plano Solimões Empreendimentos Imobiliários Ltda. CNPJ 26.777.590/0001-57 e Plano Xingu Empreendimentos Imobiliários Ltda. CNPJ 24.353.806/0001-21; ambas sediadas na Rua Samuel Morse, 74 – 13° andar – Brooklin, CEP 04576-060 – São Paulo – SP. Participação para maiores de 18 anos, com CPF regular e residentes no Brasil, que de 15/03 a 15/06/2020 visitarem uma das lojas Plano & Plano participantes e efetuarem seu cadastro com corretor. 1 (uma) visita por CPF. Consulte condições de participação, premiação, lojas participantes e número do Certificado de Autorização SECAP/ME no Regulamento completo em www.queroganharumape.com.br. Imagens ilustrativas
+            Realização: Plano&Plano | Plano Solimões Empreendimentos Imobiliários Ltda. CNPJ 26.777.590/0001-57 e Plano Xingu Empreendimentos Imobiliários Ltda. CNPJ 24.353.806/0001-21; ambas sediadas na Rua Samuel Morse, 74 – 13° andar – Brooklin, CEP 04576-060 – São Paulo – SP. Participação para maiores de 18 anos, com CPF regular e residentes no Brasil, que de 15/03 a 15/06/2020 visitarem uma das lojas Plano & Plano participantes e efetuarem seu cadastro com corretor. 1 (uma) visita por CPF. Consulte condições de participação, premiação, lojas participantes e número do Certificado de Autorização SECAP/ME no Regulamento completo em <a href="https://cdn.planoeplano.com.br/pdf/regulamento_final-protocolar.pdf" target="_blank">www.queroganharumape.com.br</a>. Imagens ilustrativas
           </p>
         </div>
       </div>

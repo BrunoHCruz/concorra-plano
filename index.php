@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-12 d-flex align-items-center">
-                    <div class="p-5">
+                    <div class="p-3 p-md-5">
                         <h1 class="webdoor__title pb-4">Quer ganhar<br>um apê?</h1>
                         <p class="webdoor__text pb-2">Vá até uma das Centrais de Vendas Plano&Plano espalhadas por São Paulo, passe por um atendimento e pronto!</p>
                         <p class="webdoor__text">Você concorre a um apartamento sem ter que comprar nada!</p>
