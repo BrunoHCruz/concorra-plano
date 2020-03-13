@@ -29,6 +29,7 @@
     <meta property="og:locale" content="" />
 
     <link rel="icon" href="/" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,400i,700,900&display=swap" rel="stylesheet">
 
     <title><?= $title;?></title>
 
