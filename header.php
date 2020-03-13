@@ -44,21 +44,27 @@
   </head>
   <body>
 
-<header class="header">
-  <div class="container">
-      <div class="content">
-          <a href="/" title="Plano&Plano" class="header--logo">
-            
-          </a>
-          <nav class="header--menu">
-            <a class="header--link" data-anchor="1" href="javascript:void();">Sobre a campanha</a>
-            <span class="header--separator"></span>
-            <a class="header--link" data-anchor="2" href="javascript:void();">Como participar</a>
-            <span class="header--separator"></span>
-            <a class="header--link" data-anchor="3" href="javascript:void();">Lojas Plano&Plano</a>
-            <span class="header--separator"></span>
-            <a class="header--link" data-anchor="4" href="javascript:void();">Regulamento</a>
-          </nav>
-      </div>
-  </div>
-</header>
+<Main>
+
+  <header class="header">
+    <div class="container">
+        <div class="header__content d-flex flex-row justify-content-between align-items-center">
+            <a href="/" title="Plano&Plano" class="header__logo">
+              <picture>
+                  <source srcset="assets/images/logo.webp" type="image/webp">
+                  <source srcset="assets/images/logo.png" type="image/png"> 
+                  <img src="assets/images/logo.png" alt="Logo Plano&Plano">
+              </picture>
+            </a>
+            <nav class="d-flex align-items-center">
+              <a class="header__link" href="javascript:void();">Sobre a campanha</a>
+              <span class="header__separator">◆</span>
+              <a class="header__link" href="javascript:void();">Como participar</a>
+              <span class="header__separator">◆</span>
+              <a class="header__link" href="javascript:void();">Central de Vendas Plano&Plano</a>
+              <span class="header__separator">◆</span>
+              <a class="header__link" href="javascript:void();">Regulamento</a>
+            </nav>
+        </div>
+    </div>
+  </header>
