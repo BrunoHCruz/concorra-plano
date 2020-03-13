@@ -1,6 +1,6 @@
 <?php
 
-   $title       = ((isset($title) && !empty($title)) ? $title : '');
+   $title       = "Quer ganhar um apê? | Plano&Plano";
    $description = ((isset($description) && !empty($description)) ? $description : '');
    $keywords    = ((isset($keywords) && !empty($keywords)) ? $keywords : '');
 
@@ -28,7 +28,7 @@
     <meta property="og:site_name" content="" />
     <meta property="og:locale" content="" />
 
-    <link rel="icon" href="/" />
+    <link rel="icon" href="/assets/images/favicon.png" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,400i,700,900&display=swap" rel="stylesheet">
 
     <title><?= $title;?></title>
@@ -56,14 +56,14 @@
                   <img src="assets/images/logo.png" alt="Logo Plano&Plano">
               </picture>
             </a>
-            <nav class="d-flex align-items-center">
-              <a class="header__link" href="javascript:void();">Sobre a campanha</a>
+            <nav class="d-flex align-items-center menu">
+              <a class="header__link" href="#webdoor">Sobre a campanha</a>
               <span class="header__separator">◆</span>
-              <a class="header__link" href="javascript:void();">Como participar</a>
+              <a class="header__link" href="#concorrer">Como participar</a>
               <span class="header__separator">◆</span>
-              <a class="header__link" href="javascript:void();">Central de Vendas Plano&Plano</a>
+              <a class="header__link" href="#centralVendas">Central de Vendas Plano&Plano</a>
               <span class="header__separator">◆</span>
-              <a class="header__link" href="javascript:void();">Regulamento</a>
+              <a class="header__link" href="#regulamento">Regulamento</a>
             </nav>
         </div>
     </div>

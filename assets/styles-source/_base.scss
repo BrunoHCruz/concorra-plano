@@ -1,3 +1,8 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 .visite {
   padding: 80px 0;
   background: $colorAqua;
@@ -93,6 +98,9 @@
   &--nome {
     @include font-std(30px, $colorWhite, 600, $font-primary);
     margin: 30px 0 0;
+    @include mobile {
+      text-align: center;
+    }
   }
 
   hr {
@@ -140,15 +148,23 @@ a {
 }
 
 .webdoor {
-  background-color: #E1C500;
+  background-color: #e1c500;
   &__title {
     @include font-std(54px, $colorWhite, 600, $font-primary);
     line-height: 1.2;
+    @include mobile {
+      text-align: center;
+      font-size: 40px;
+    }
   }
 
   &__text {
     @include font-std(26px, $colorWhite, 400, $font-primary);
     line-height: 1.2;
+    @include mobile {
+      font-size: 20px;
+      text-align: center;
+    }
   }
 }
 
@@ -170,23 +186,34 @@ a {
     span {
       @include font-std(20px, $colorWhite, 400, $font-primary);
     }
-
+    @include mobile {
+      padding: 0;
+    }
   }
 
   &__content {
     height: 425px;
     margin-bottom: 117px;
     &:after {
-      content: '';
+      content: "";
       display: block;
       position: absolute;
       bottom: 0;
       left: 15px;
       width: 1.3rem;
-      height: .625rem;
+      height: 0.625rem;
       background-color: #fff;
-      border-radius: .625rem;
+      border-radius: 0.625rem;
+    }
+    @include mobile {
+      height: auto;
+      text-align: center;
+
+      &:after {
+        margin: 20px auto 0;
+        display: block;
+        position: relative;
+      }
     }
   }
-  
 }

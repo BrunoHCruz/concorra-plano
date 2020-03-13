@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // Filter Region
-  $(".btn").click(function(e) {
+  $("#filter .btn").click(function(e) {
     e.preventDefault();
     var name = $(this).attr("id");
     $(".todos").hide();
