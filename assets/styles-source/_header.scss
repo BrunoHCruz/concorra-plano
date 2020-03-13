@@ -6,6 +6,7 @@
     &__link {
         @include font-std(16px, #000, 900, $font-primary);
         padding: 0 20px;
+        
     }
     &__separator {
         font-size: 10px;

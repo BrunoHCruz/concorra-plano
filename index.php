@@ -9,8 +9,15 @@
 ?>
 
 
-    <section class="visite">
+    <section class="visite"> 
         <div class="container">
+            <!-- Title -->
+            <div class="row">
+                <div class="col-md-12 col-12 text-center">
+                    <h3 class="visite--title">Visite uma loja mais próxima de você!</h3>
+                </div>
+            </div>
+            <!-- Buttons Filter -->
             <div class="row">
                 <div class="col-md-2 col-2">
                     <a href="#" class="btn btn-leste">
@@ -38,10 +45,19 @@
                     </a>
                 </div>
                 <div class="col-md-2 col-2">
-                    <a href="#" class="btn btn-JUNDIAI">
+                    <a href="#" class="btn btn-jundiai">
                         JUNDIAÍ
                     </a>
                 </div>
+            </div>
+            <!-- Grid Region -->
+            <div class="row">
+                <div class="col-md-3 col-12">
+                    
+                </div>
+                <div class="col-md-3 col-12"></div>
+                <div class="col-md-3 col-12"></div>
+                <div class="col-md-3 col-12"></div>
             </div>
         </div>
     </section>
