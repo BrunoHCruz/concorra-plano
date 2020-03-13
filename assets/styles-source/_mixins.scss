@@ -1,6 +1,30 @@
 @mixin font-std($size, $color, $wheight, $font-family) {
-	font-size: $size;
-	color: $color;
-	font-weight: $wheight;
-	font-family: $font-family;
+  font-size: $size;
+  color: $color;
+  font-weight: $wheight;
+  font-family: $font-family;
+}
+
+$mobile-width: 768px;
+$tablet-width: 992px;
+$desktop-width: 1025px;
+$notebook-min: 1026px;
+$notebook-max: 1500px;
+
+@mixin mobile {
+  @media (max-width: $mobile-width) {
+    @content;
+  }
+}
+
+@mixin notebook {
+  @media (min-width: $notebook-min) and (max-width: $notebook-max) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
 }
