@@ -28,12 +28,12 @@
     <meta property="og:site_name" content="" />
     <meta property="og:locale" content="" />
 
-    <link rel="icon" href="/assets/images/favicon.png" />
+    <link rel="icon" href="assets/images/favicon.png" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,400i,700,900&display=swap" rel="stylesheet">
 
     <title><?= $title;?></title>
 
-    <link rel="stylesheet" href="/assets/styles/styles.min.css" media="all">
+    <link rel="stylesheet" href="assets/styles/styles.min.css" media="all">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
