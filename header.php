@@ -48,7 +48,7 @@
 
   <header class="header">
     <div class="container">
-        <div class="d-flex flex-row justify-content-between">
+        <div class="header__content d-flex flex-row justify-content-between align-items-center">
             <a href="/" title="Plano&Plano" class="header__logo">
               <picture>
                   <source srcset="assets/images/logo.webp" type="image/webp">
@@ -56,7 +56,7 @@
                   <img src="assets/images/logo.png" alt="Logo Plano&Plano">
               </picture>
             </a>
-            <nav class="header__menu">
+            <nav class="d-flex align-items-center">
               <a class="header__link" href="javascript:void();">Sobre a campanha</a>
               <span class="header__separator">◆</span>
               <a class="header__link" href="javascript:void();">Como participar</a>
