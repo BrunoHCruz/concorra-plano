@@ -2,11 +2,23 @@
     display: flex;
     align-items: center;
     height: 600px;
+    @include mobile {
+        height: unset;
+    }
     
+    &__logo {
+        @include mobile {
+            padding-top: 20px;
+            text-align: center;
+        }
+    }
 
     &__slogan-hashtag,  &__sac {
         @include font-std(20px, $colorBlack, 600, $font-primary);
         text-transform: uppercase;
+        @include mobile {
+            text-align: center;
+        }
     }
 
     &__social-link {
@@ -17,10 +29,20 @@
             transform: translateY(-10px);
             transition: all 0.3s;
         }
+        @include mobile {
+            max-width: 50px;
+            margin: 20px 0 0;
+            padding: 0 5px;
+        
+        }
     }
 
     &__email {
         @include font-std(21px, #6BACE2, 400, $font-primary);
+        @include mobile {
+            font-size: 17px;
+            text-align: center;
+        }
     }
     &__regulamento {
         @include font-std(12px, #9FA7B3, 400, $font-primary);

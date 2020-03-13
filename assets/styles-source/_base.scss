@@ -204,6 +204,9 @@ a {
       height: 0.625rem;
       background-color: #fff;
       border-radius: 0.625rem;
+      @include mobile {
+        left: 0;
+      }
     }
     @include mobile {
       height: auto;
