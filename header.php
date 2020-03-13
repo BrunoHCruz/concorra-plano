@@ -61,7 +61,7 @@
               <span class="header__separator">◆</span>
               <a class="header__link" href="javascript:void();">Como participar</a>
               <span class="header__separator">◆</span>
-              <a class="header__link" href="javascript:void();">Lojas Plano&Plano</a>
+              <a class="header__link" href="javascript:void();">Central de Vendas Plano&Plano</a>
               <span class="header__separator">◆</span>
               <a class="header__link" href="javascript:void();">Regulamento</a>
             </nav>
