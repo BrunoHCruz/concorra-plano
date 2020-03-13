@@ -69,3 +69,15 @@
     background-color: #c45624;
   }
 }
+
+.btn-red {
+  @include font-std(16px, $colorWhite, 600, $font-primary);
+  background-color: $colorRed;
+  padding: 15px 20px;
+  width: 100%;
+
+  &:hover {
+    color: $colorWhite;
+    background-color: #680102;
+  }
+}
