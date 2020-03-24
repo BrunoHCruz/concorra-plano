@@ -241,10 +241,10 @@
                 </div>
                 <!-- END -->
                 <!-- Partial 3 -->
-                <div class="col-md-3 col-12 m-20 p-0 todos zona-sul">
+                <div class="col-md-3 col-12 m-20 p-0 todos zona-leste">
                     <div class="visite--region">
                         <p class="title">
-                            Zona Sul
+                            Jacu Pêssego
                         </p>
                         <p class="text h-65">
                             Avenida Jacu Pêssego (esquina com a Rua Agrimensor Sugaya, 7)
