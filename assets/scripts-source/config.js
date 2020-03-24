@@ -26,4 +26,15 @@ $(document).ready(function() {
     e.preventDefault();
     $(".overlay").hide();
   });
+
+
+  // popUp 
+  setTimeout(function(){
+    $(".popUp").fadeIn();
+  }, 500);
+
+  $(".popUp__overlay--close").click(function(){
+    $(".popUp").fadeOut();
+  });
+
 });
