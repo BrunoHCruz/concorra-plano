@@ -1,6 +1,6 @@
 <?php
 
-   $title       = ((isset($title) && !empty($title)) ? $title : '');
+   $title       = "Quer ganhar um apê? | Plano&Plano";
    $description = ((isset($description) && !empty($description)) ? $description : '');
    $keywords    = ((isset($keywords) && !empty($keywords)) ? $keywords : '');
 
@@ -28,11 +28,12 @@
     <meta property="og:site_name" content="" />
     <meta property="og:locale" content="" />
 
-    <link rel="icon" href="/" />
+    <link rel="icon" href="assets/images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,400i,700,900&display=swap" rel="stylesheet">
 
     <title><?= $title;?></title>
 
-    <link rel="stylesheet" href="/assets/styles/styles.min.css" media="all">
+    <link rel="stylesheet" href="assets/styles/styles.min.css" media="all">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,24 +41,33 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KLKV57');</script>
   </head>
   <body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLKV57" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-<header class="header">
-  <div class="container">
-      <div class="content">
-          <a href="/" title="Plano&Plano" class="header--logo">
-            
-          </a>
-          <nav class="header--menu">
-            <a class="header--link" data-anchor="1" href="javascript:void();">Sobre a campanha</a>
-            <span class="header--separator"></span>
-            <a class="header--link" data-anchor="2" href="javascript:void();">Como participar</a>
-            <span class="header--separator"></span>
-            <a class="header--link" data-anchor="3" href="javascript:void();">Lojas Plano&Plano</a>
-            <span class="header--separator"></span>
-            <a class="header--link" data-anchor="4" href="javascript:void();">Regulamento</a>
-          </nav>
-      </div>
-  </div>
-</header>
+<Main>
+
+  <header class="header">
+    <div class="container">
+        <div class="header__content d-flex flex-row justify-content-between align-items-center">
+            <a href="https://www.planoeplano.com.br/" title="Plano&Plano" class="header__logo">
+              <picture>
+                  <source srcset="assets/images/logo.webp" type="image/webp">
+                  <source srcset="assets/images/logo.png" type="image/png"> 
+                  <img src="assets/images/logo.png" alt="Logo Plano&Plano">
+              </picture>
+            </a>
+            <nav class="d-flex align-items-center menu">
+              <a class="header__link" href="#webdoor">Sobre a campanha</a>
+              <span class="header__separator">◆</span>
+              <a class="header__link" href="#concorrer">Como participar</a>
+              <span class="header__separator">◆</span>
+              <a class="header__link" href="#centralVendas">Central de Vendas Plano&Plano</a>
+              <span class="header__separator">◆</span>
+              <a class="header__link" href="#regulamento">Regulamento</a>
+            </nav>
+        </div>
+    </div>
+  </header>

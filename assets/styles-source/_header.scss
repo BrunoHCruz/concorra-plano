@@ -1,0 +1,48 @@
+.header {
+  position: fixed;
+  background: $colorWhite;
+  z-index: 9;
+  width: 100%;
+  @include mobile {
+    position: relative;
+  }
+  .menu {
+    @include mobile {
+      display: none !important;
+    }
+  }
+
+  &__content {
+    height: 83px;
+  }
+
+  &__logo {
+    @include mobile {
+      margin: auto;
+    }
+  }
+
+  &__link {
+    @include font-std(14px, $colorOrange, 600, $font-primary);
+    padding: 10px 20px 0;
+    &:after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 4px;
+      background: $colorOrange;
+      transition: width 0.3s;
+      margin-top: 5px;
+    }
+    &:hover {
+      color: $colorOrange;
+      &:after {
+        width: 100%;
+      }
+    }
+  }
+  &__separator {
+    font-size: 10px;
+    color: $colorOrange;
+  }
+}

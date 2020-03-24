@@ -1,0 +1,83 @@
+.btn-leste {
+  @include font-std(16px, $colorWhite, 600, $font-primary);
+  background-color: #f77565;
+  padding: 15px 20px;
+  width: 100%;
+
+  &:hover {
+    color: $colorWhite;
+    background-color: #d85747;
+  }
+}
+
+.btn-sul {
+  @include font-std(16px, $colorWhite, 600, $font-primary);
+  background-color: #715dad;
+  padding: 15px 20px;
+  width: 100%;
+
+  &:hover {
+    color: $colorWhite;
+    background-color: #42298f;
+  }
+}
+
+.btn-norte {
+  @include font-std(16px, $colorWhite, 600, $font-primary);
+  background-color: #5ea4d3;
+  padding: 15px 20px;
+  width: 100%;
+
+  &:hover {
+    color: $colorWhite;
+    background-color: #306c94;
+  }
+}
+
+.btn-oeste {
+  @include font-std(16px, $colorWhite, 600, $font-primary);
+  background-color: #f7bd46;
+  padding: 15px 20px;
+  width: 100%;
+
+  &:hover {
+    color: $colorWhite;
+    background-color: #bf8a1c;
+  }
+}
+
+.btn-centro {
+  @include font-std(16px, $colorWhite, 600, $font-primary);
+  background-color: #6dc84e;
+  padding: 15px 20px;
+  width: 100%;
+
+  &:hover {
+    color: $colorWhite;
+    background-color: #308911;
+  }
+}
+
+.btn-jundiai {
+  @include font-std(16px, $colorWhite, 600, $font-primary);
+  background-color: $colorOrange;
+  padding: 15px 20px;
+  width: 100%;
+
+  &:hover {
+    color: $colorWhite;
+    background-color: #c45624;
+  }
+}
+
+.btn-red {
+  @include font-std(16px, $colorWhite, 600, $font-primary);
+  background-color: $colorRed;
+  padding: 15px 20px;
+  width: 100%;
+
+  &:hover {
+    color: $colorWhite;
+    background-color: #680102;
+  }
+}
