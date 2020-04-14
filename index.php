@@ -7,7 +7,46 @@
     include('header.php');
 
 ?>
-
+    
+    <div class="popUp">
+        <div class="popUp__overlay">
+            <a href="#" class="popUp__overlay--close">X</a>
+            <div class="row">
+                <div class="col-md-12 col-12 text-center">
+                    <picture>
+                        <source srcset="assets/images/logo.webp" type="image/webp">
+                        <source srcset="assets/images/logo.png" type="image/png"> 
+                        <img src="assets/images/logo.png" class="popUp__overlay--logo" alt="Logo Plano&Plano">
+                    </picture>
+                </div> 
+                <div class="col-md-12 col-12">
+                    <h2 class="popUp__overlay--title">COMUNICADO IMPORTANTE</h2>
+                    <p class="popUp__overlay--text">
+                        Tendo em vista o anúncio por parte do Governador de São Paulo, nesse último dia 21/03, acerca
+                        do estado de quarentena imposto por 15 (quinze) dias como medida de combate à pandemia de
+                        corona vírus, começando na terça-feira dia 24/03, resultando no fechamento obrigatório de todo
+                        o comércio e serviços não essenciais, nossas lojas estarão fechadas a partir de então,
+                        inviabilizando temporariamente a continuidade da nossa promoção.
+                    </p>
+                    <p class="popUp__overlay--text">
+                        Assim sendo, a data de retomada da promoção será informada em breve no nosso site, assim
+                        que houver a possibilidade de reabertura das nossas lojas. 
+                    </p>
+                    <p class="popUp__overlay--text">
+                        Certos de sua compreensão nesse momento, firmamos o compromisso de mantê-los informados
+                        sobre qualquer novo direcionamento advindos dos órgãos competentes.
+                    </p> 
+                    <p class="popUp__overlay--text">
+                        Em caso de dúvidas, entre em contato conosco pelo canal <a class="popUp__overlay--link" href="mailto:sac@queroganharumape.com.br" target="_blank">sac@queroganharumape.com.br</a>
+                        Esperamos que, em breve, possamos estar juntos na retomada da nossa promoção! 
+                    </p>
+                    <p class="popUp__overlay--text">
+                        <a href="http://www.caixa.gov.br/loterias/comunicados-importantes/Paginas/default.aspx" target="_blank">http://www.caixa.gov.br/loterias/comunicados-importantes/Paginas/default.aspx</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>    
 
     <section class="webdoor" id="webdoor">
         <div class="container">
