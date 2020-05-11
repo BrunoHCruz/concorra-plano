@@ -22,19 +22,20 @@
                 <div class="col-md-12 col-12">
                     <h2 class="popUp__overlay--title">COMUNICADO IMPORTANTE</h2>
                     <p class="popUp__overlay--text">
-                        Tendo em vista o anúncio por parte do Governador de São Paulo, nesse último dia 21/03, acerca
-                        do estado de quarentena imposto por 15 (quinze) dias como medida de combate à pandemia de
-                        corona vírus, começando na terça-feira dia 24/03, resultando no fechamento obrigatório de todo
-                        o comércio e serviços não essenciais, nossas lojas estarão fechadas a partir de então,
-                        inviabilizando temporariamente a continuidade da nossa promoção.
+                    Tendo em vista o anúncio por parte do Governador de São Paulo, 
+                    acerca do estado de quarentena imposto como medida de combate à
+                    pandemia de corona vírus, começando no dia 24/03, resultando no 
+                    fechamento obrigatório de todo o comércio e serviços não essenciais,
+                    nossas lojas estarão fechadas a partir de então, inviabilizando 
+                    temporariamente a continuidade da nossa promoção. 
                     </p>
                     <p class="popUp__overlay--text">
-                        Assim sendo, a data de retomada da promoção será informada em breve no nosso site, assim
-                        que houver a possibilidade de reabertura das nossas lojas. 
+                    Assim sendo, o <strong>novo período de participação na Promoção “Quer ganhar um apê” está compreendido entre
+                    01/08/2020 e 02/11/2020 podendo sofrer novas alterações caso sejam necessárias.</strong>
                     </p>
                     <p class="popUp__overlay--text">
-                        Certos de sua compreensão nesse momento, firmamos o compromisso de mantê-los informados
-                        sobre qualquer novo direcionamento advindos dos órgãos competentes.
+                    Certos de sua compreensão nesse momento, firmamos o compromisso de mantê-los informados
+                    sobre qualquer novo direcionamento advindos dos órgãos competentes.
                     </p> 
                     <p class="popUp__overlay--text">
                         Em caso de dúvidas, entre em contato conosco pelo canal <a class="popUp__overlay--link" href="mailto:sac@queroganharumape.com.br" target="_blank">sac@queroganharumape.com.br</a>

@@ -71,9 +71,9 @@
           <span class="footer__email">sac@queroganharumape.com.br</span>
         </div>
         <div class="col-12 col-md-8">
-          <p class="footer__regulamento pl-0 pl-md-5 mt-3">COMUNICADO IMPORTANTE</p>
-          <p class="footer__regulamento pl-0 pl-md-5 mt-3"> Tendo em vista o anúncio por parte do Governador de São Paulo, acerca do estado de quarentena imposto como medida de combate à pandemia de corona vírus, começando no dia 24/03, resultando no fechamento obrigatório de todo o comércio e serviços não essenciais, nossas lojas estarão fechadas a partir de então, inviabilizando temporariamente a continuidade da nossa promoção.</p>
-          <p class="footer__regulamento pl-0 pl-md-5 mt-3">Assim sendo, o novo período de participação na Promoção “Quer ganhar um apê” está compreendido entre 05/05/2020 e 10/08/2020 podendo sofrer novas alterações caso sejam necessárias. </p>
+          <p class="footer__regulamento pl-0 pl-md-5 mt-3"><strong>COMUNICADO IMPORTANTE</strong></p>
+          <p class="footer__regulamento pl-0 pl-md-5 mt-3">Tendo em vista o anúncio por parte do Governador de São Paulo, acerca do estado de quarentena imposto como medida de combate à pandemia de corona vírus, começando no dia 24/03, resultando no fechamento obrigatório de todo o comércio e serviços não essenciais, nossas lojas estarão fechadas a partir de então, inviabilizando temporariamente a continuidade da nossa promoção. </p>
+          <p class="footer__regulamento pl-0 pl-md-5 mt-3">Assim sendo, o <strong>novo período de participação na Promoção “Quer ganhar um apê” está compreendido entre 01/08/2020 e 02/11/2020 podendo sofrer novas alterações caso sejam necessárias.</strong> </p>
           <p class="footer__regulamento pl-0 pl-md-5 mt-3">Certos de sua compreensão nesse momento, firmamos o compromisso de mantê-los informados sobre qualquer novo direcionamento advindos dos órgãos competentes.</p>
           <p class="footer__regulamento pl-0 pl-md-5 mt-3"> Em caso de dúvidas, entre em contato conosco pelo canal <strong>sac@queroganharumape.com.br</strong>. Esperamos que, em breve, possamos estar juntos na retomada da nossa promoção! <a href="http://www.caixa.gov.br/loterias/comunicados-importantes/Paginas/default.aspx" target="_blank">http://www.caixa.gov.br/loterias/comunicados-importantes/Paginas/default.aspx</a>.</p>
           <p class="footer__regulamento pl-0 pl-md-5 mt-3">---</p>
